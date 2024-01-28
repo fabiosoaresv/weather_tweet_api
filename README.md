@@ -70,4 +70,4 @@ Finished in 1.94 seconds (files took 4.99 seconds to load)
 
 ![image](https://github.com/fabiosoaresv/weather_tweet_api/assets/31450742/cfeee706-bd0a-401c-bd18-d1e526b3215f)
 
-3. You can read all scope of challenge in `challenge.pdf` file.
+2. You can read all scope of challenge in `challenge.pdf` file.
