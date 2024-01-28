@@ -6,8 +6,8 @@ services:
     ports:
       - '3000:3000'
     environment:
-      API_KEY: '5232c29a06721a472a61f82f7889e2d4'
-      CONSUMER_KEY: 'eMbHM74z89b98CrUTRoZiI4up'
-      CONSUMER_SECRET: 'iadLficAYPLiKMGgWh0f3BxleJeZSUmRjXxRzHf22Rck612gBN'
-      ACCESS_TOKEN: '1750909002177814528-8gMMCiESA7aLHpLIcNHudDjgf1iL79'
-      TOKEN_SECRET: 'dmNaEM8GLdCaMQcSGJbbigfZkLDPTYXpcLEWdcgBIoIFs'
+      API_KEY: 'your_api_key'
+      CONSUMER_KEY: 'your_consumer_key'
+      CONSUMER_SECRET: 'your_consumer_secret'
+      ACCESS_TOKEN: 'your_access_token'
+      TOKEN_SECRET: 'your_token_secret'
