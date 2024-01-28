@@ -67,4 +67,6 @@ Finished in 1.94 seconds (files took 4.99 seconds to load)
 
 # Additional Notes
 1. After successful API requests, you can check your Twitter account for the published tweet with weather information.
-2. You can read all scope of challenge in `challenge.pdf` file.
+   ![image](https://github.com/fabiosoaresv/weather_tweet_api/assets/31450742/cfeee706-bd0a-401c-bd18-d1e526b3215f)
+
+3. You can read all scope of challenge in `challenge.pdf` file.
