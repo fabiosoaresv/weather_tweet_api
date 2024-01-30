@@ -44,7 +44,7 @@ $ docker-compose up --build
 ```
 
 # Replace the environment variables
-Don't forget to create a `.env` as mentioned above.
+Don't forget to create a `.env` file as mentioned above.
 
 # Make requests to the API:
 ```bash
