@@ -1,7 +1,7 @@
 # spec/controllers/twitter_controller_spec.rb
 require 'rails_helper'
 
-RSpec.describe TwitterController, type: :controller do
+RSpec.describe Twitter::TweetsController, type: :controller do
   describe 'POST #create_tweet successfully' do
     let(:tweet_service) { instance_double('Twitter::CreateTweet') }
     let(:weather_information_service) { instance_double('Twitter::UseCases::WeatherInformation') }
@@ -18,7 +18,7 @@ RSpec.describe TwitterController, type: :controller do
       before do
         allow(weather_information_service).to receive(:execute).with(city_id).and_return('formatted_message')
         allow(tweet_service).to receive(:publish).with('formatted_message').and_return(response_data)
-        post :create_tweet, params: { city_id: city_id }, format: :json
+        post :create, params: { city_id: city_id }, format: :json
       end
 
       it 'returns a success message' do
@@ -35,7 +35,7 @@ RSpec.describe TwitterController, type: :controller do
     context 'when tweet creation fails' do
       before do
         allow(weather_sdk_double).to receive(:get_weather_by_city_id).with(city_id, 'api_key').and_raise(WeatherSdk::Error, 'Cannot find city or execute request')
-        post :create_tweet, params: { city_id: city_id }, format: :json
+        post :create, params: { city_id: city_id }, format: :json
       end
 
       it 'returns an error message' do

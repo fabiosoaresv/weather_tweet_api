@@ -48,7 +48,7 @@ In your `docker-compose.yml` you need to replace the variables with your values.
 
 # Make requests to the API:
 ```bash
-$ curl -X POST -H "Content-Type: application/json" -d '{"city_id": "your_city_id"}' http://localhost:3000/twitter/create_tweet
+$ curl -X POST -H "Content-Type: application/json" -d '{"city_id": "your_city_id"}' http://localhost:3000/twitter/tweets
 ```
 
 Replace `your_city_id` with the actual city ID you want to get weather information for.
