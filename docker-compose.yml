@@ -5,9 +5,5 @@ services:
     build: .
     ports:
       - '3000:3000'
-    environment:
-      API_KEY: 'your_api_key'
-      CONSUMER_KEY: 'your_consumer_key'
-      CONSUMER_SECRET: 'your_consumer_secret'
-      ACCESS_TOKEN: 'your_access_token'
-      TOKEN_SECRET: 'your_token_secret'
+    env_file:
+      - ./.env

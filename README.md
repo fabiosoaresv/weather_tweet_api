@@ -44,7 +44,7 @@ $ docker-compose up --build
 ```
 
 # Replace the environment variables
-In your `docker-compose.yml` you need to replace the variables with your values.
+Don't forget to create a `.env` as mentioned above.
 
 # Make requests to the API:
 ```bash
