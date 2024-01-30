@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/fabiosoaresv/weather_sdk.git
-  revision: 413e362d46e54600804919ce010357c5ea9552b9
-  tag: v2.0.2
+  revision: 3067d4fbed7342e33c43aac81416e5cc804c5e48
+  tag: v2.0.4
   specs:
-    weather_sdk (2.0.2)
+    weather_sdk (2.0.3)
 
 GEM
   remote: https://rubygems.org/
@@ -84,7 +84,7 @@ GEM
       tzinfo (~> 2.0)
     base64 (0.2.0)
     bigdecimal (3.1.6)
-    bootsnap (1.17.1)
+    bootsnap (1.18.1)
       msgpack (~> 1.2)
     builder (3.2.4)
     byebug (11.1.3)
